@@ -152,8 +152,7 @@ public static List <NPC> dataSubjectList=new ArrayList<NPC>();
 				System.out.println(Main.dataSubjectList.get(i).get_firstname()+
 						" "+Main.dataSubjectList.get(i).get_surname());
 			}
-		
-	
+			
 			//con.close();
 //		} catch (MySQLIntegrityConstraintViolationException e) {
 //			System.out.println("fail");

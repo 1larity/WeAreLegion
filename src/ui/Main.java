@@ -137,8 +137,7 @@ public static List <NPC> dataSubjectList=new ArrayList<NPC>();
 		
 		try {
 			Statement stmt;
-				
-			stmt = con.createStatement();
+				stmt = con.createStatement();
 			ResultSet rs = stmt.executeQuery("select * from getrandfullfrfemname limit 1");
 			
 			while (rs.next()) {
